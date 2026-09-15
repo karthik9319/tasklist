@@ -1,0 +1,21 @@
+:root {
+  --bg: oklch(97% 0.018 75);
+  --bg-sidebar: oklch(99% 0.012 75);
+  --bg-elevated: oklch(99.6% 0.004 75);
+  --card: oklch(99.3% 0.008 75);
+  --border: oklch(90% 0.02 75);
+  --text: oklch(28% 0.02 50);
+  --text-muted: oklch(50% 0.02 50);
+  --text-faint: oklch(65% 0.02 50);
+  --accent1: oklch(70% 0.18 38);
+  --accent2: oklch(80% 0.15 85);
+  --accent-gradient: linear-gradient(135deg, var(--accent1), var(--accent2));
+  --list-work: oklch(66% 0.15 258);
+  --list-personal: oklch(68% 0.17 20);
+  --list-home: oklch(64% 0.14 148);
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --radius-sm: 7px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+}
