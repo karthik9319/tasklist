@@ -1,4 +1,4 @@
-# Still
+# Tasklist
 
 A calm, minimal to-do list app for people who want a task manager that gets out of the way.
 
@@ -61,7 +61,7 @@ npm test
 
 ## Project structure
 
-```
+```text
 src/                  React app (shared by web + desktop)
   components/         UI components
   lib/                Data layer (Dexie), recurrence logic, NL date parsing

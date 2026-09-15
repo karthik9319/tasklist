@@ -1,12 +1,12 @@
 import Dexie, { type Table } from "dexie";
 import type { List, Task } from "./types";
 
-class StillDB extends Dexie {
+class TasklistDB extends Dexie {
   tasks!: Table<Task, string>;
   lists!: Table<List, string>;
 
   constructor() {
-    super("still");
+    super("tasklist");
     this.version(1).stores({
       tasks: "id, listId, parentTaskId, dueDate, completed, deletedAt",
       lists: "id, sortOrder, deletedAt",
@@ -14,7 +14,7 @@ class StillDB extends Dexie {
   }
 }
 
-export const db = new StillDB();
+export const db = new TasklistDB();
 
 const DEFAULT_LISTS: Array<Pick<List, "name" | "color">> = [
   { name: "Work", color: "var(--list-work)" },

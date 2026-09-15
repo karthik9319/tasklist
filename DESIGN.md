@@ -2,7 +2,7 @@
 
 ## Scope
 
-Still is deliberately a **bare-minimum MVP**, aimed at calm personal use (not teams). Things included, and things left out on purpose:
+Tasklist is deliberately a **bare-minimum MVP**, aimed at calm personal use (not teams). Things included, and things left out on purpose:
 
 **In v1**
 - Quick add with natural-language dates

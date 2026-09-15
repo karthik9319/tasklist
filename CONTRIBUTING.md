@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for considering a contribution to Still.
+Thanks for considering a contribution to Tasklist.
 
 ## Setup
 

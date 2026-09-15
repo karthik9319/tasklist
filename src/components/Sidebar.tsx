@@ -31,7 +31,7 @@ export function Sidebar({ tasks, lists, view, onSelectView }: SidebarProps) {
 
   return (
     <div className="sidebar">
-      <div className="sidebar__brand">Still</div>
+      <div className="sidebar__brand">Tasklist</div>
 
       <div className="nav-list">
         <button
